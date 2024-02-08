@@ -1,9 +1,8 @@
 
-export default function Company() {
+export default function Company({src, alt}: {src: string; alt: string}) {
 
     return (
-        <div>
-            
-        </div>
+        <img src={src}
+            alt={alt} />
     )
 }

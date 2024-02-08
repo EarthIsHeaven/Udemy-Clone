@@ -9,36 +9,32 @@ export default function Companies() {
                 </div>
                 <div className="flex gap-11">
                     <div>
-                        <Company />
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/volkswagen.svg"
-                            alt="one" />
+                        <Company src={"https://s.udemycdn.com/partner-logos/ou-v1/volkswagen.svg"} alt={"one"}/>
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/samsung.svg"
-                            alt="one" />
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/samsung.svg" alt="two"/>
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/cisco.svg"
-                            alt="three" />
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/cisco.svg" alt="three"/>
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/att.svg"
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/att.svg"
                             alt="four" />
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/procter_gamble.svg"
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/procter_gamble.svg"
                             alt="five" />
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/hewlett_packard_enterprise.svg"
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/hewlett_packard_enterprise.svg"
                             alt="six" />
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/citi.svg"
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/citi.svg"
                             alt="seven" />
                     </div>
                     <div>
-                        <img src="https://s.udemycdn.com/partner-logos/ou-v1/ericsson.svg"
+                        <Company src="https://s.udemycdn.com/partner-logos/ou-v1/ericsson.svg"
                             alt="one" />
                     </div>
                 </div>
