@@ -3,10 +3,10 @@ export default function PythonAndWeb({heading, description, buttonText, src, nam
     
     return (
         <div>
-                <div className="font-bold text-xl mb-2">
+                <div className="font-bold text-xl mb-4">
                     {heading}
                 </div>
-                <div className="w-7/12 mb-4">
+                <div className="w-7/12 mb-6 text-slate-800">
                     {description}
                 </div>
                 <div className="mb-6">

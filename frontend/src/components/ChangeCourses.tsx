@@ -10,7 +10,7 @@ export default function ChangeCourses() {
                 <div className="font-bold text-2xl mb-4">
                     A broad selection of courses
                 </div>
-                <div className="font-medium text-lg mb-4">
+                <div className="font-medium text-lg mb-4 text-slate-800">
                     Choose from over 210,000 online video courses with 
                     new additions published every month
                 </div>
