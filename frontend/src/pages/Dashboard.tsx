@@ -5,6 +5,7 @@ import TopPickCard from "../components/TopPickCard"
 import Courses from "../components/Courses"
 import ChangeCourses from "../components/ChangeCourses"
 import Footer from "../components/Footer"
+import Instructor from "../components/Instructor"
 
 export default function Dashboard() {
     return (
@@ -15,6 +16,7 @@ export default function Dashboard() {
             <TopPickCard />
             <Courses />
             <ChangeCourses />
+            <Instructor />
             <Footer />
         </div>
     )

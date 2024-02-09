@@ -1,16 +1,3 @@
-// export default function FrontImg() {
-
-//     return(
-//         // <div className="flex justify-center mb-12">
-//         //     <div className="">
-//         //         <img className="" src="https://img-c.udemycdn.com/notices/web_carousel_slide/image/87ab2850-d0a8-4ea7-a36c-6f2e4c6a6a2e.jpg" 
-//         //         alt="frontImg"/>
-//         //     </div>
-//         // </div>
-        
-//     )
-// }
-
 import{ useState } from 'react';
 import leftArrow from '../assets/leftArrow.svg';
 import rightArrow from '../assets/rightArrow.svg';
@@ -56,7 +43,7 @@ export default function FrontImg() {
       </div>
 
       {/* Left Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-1 bg-black/20 cursor-pointer'>
+      <div className=' group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-1 bg-white hover:bg-gray-400 cursor-pointer'>
         <button onClick={prevSlide}>
             <div>
                 <img  className='rounded-full w-12' src={leftArrow} alt="" />
@@ -65,7 +52,7 @@ export default function FrontImg() {
       </div>
 
       {/* Right Arrow */}
-      <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-1 bg-black/20 cursor-pointer'>
+      <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-1 bg-white hover:bg-gray-400 cursor-pointer'>
         <button onClick={nextSlide}>
             <div>
                 <img  className='rounded-full w-12' src={rightArrow} alt="" />

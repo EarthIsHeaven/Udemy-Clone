@@ -5,7 +5,7 @@ export default function ChangeCourses() {
     const [id, setId] = useState(1);
 
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center mb-20">
             <div className="w-10/12">
                 <div className="font-bold text-2xl mb-4">
                     A broad selection of courses
