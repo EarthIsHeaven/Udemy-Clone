@@ -7,18 +7,18 @@ export default function Header() {
             <div>
                 <img className="h-8" src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg" alt="logo" />
             </div>
-            <div>catagories</div>
+            <div>Catagories</div>
             <div>
              <input type="search" 
                id="default-search" 
                className="block w-full p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-3xl bg-gray-50 focus:ring-blue-500 focus:border-blue-500" 
                placeholder="Search for anything" required />
             </div>
-            <div>udemy business</div>
-            <div>teach on udemy</div>
+            <div>Udemy Business</div>
+            <div>Teach On Udemy</div>
             <div>cart logo</div>
-            <div>log in</div>
-            <div>sign up</div>
+            <div>Log in</div>
+            <div>Sign up</div>
             <div>language logo</div>
 
           </div>

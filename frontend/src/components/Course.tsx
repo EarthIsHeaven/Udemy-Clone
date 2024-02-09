@@ -4,7 +4,7 @@ export default function Course({src, name, author, price}: {src: string, name: s
     return (
         <div>
             <div>
-                <img src={src} alt="image" />
+                <img width="300rem" src={src} alt="image" />
             </div>
             <div>
                 {name}
