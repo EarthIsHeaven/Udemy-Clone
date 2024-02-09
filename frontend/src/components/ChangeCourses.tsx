@@ -18,8 +18,11 @@ export default function ChangeCourses() {
                     <div className="mr-5">
                         <button className="hover:font-bold" onClick={()=> setId(1)}>Python</button>
                     </div>
-                    <div>
+                    <div className="mr-5">
                         <button className="hover:font-bold" onClick={()=> setId(2)}>Web Development</button>
+                    </div>
+                    <div>
+                        <button className="hover:font-bold" onClick={()=> setId(3)}>Amazon AWS</button>
                     </div>
                 </div>
                 <div className="border-2 p-5">

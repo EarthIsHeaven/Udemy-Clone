@@ -9,9 +9,9 @@ export default function Courses() {
                     Learners are viewing
                 </div>
                 <div className="flex gap-4">
-                    <Course src="https://img-c.udemycdn.com/course/240x135/3142166_a637_3.jpg" 
-                            name="Ultimate AWS Certificate" 
-                            author="Stephane Maarek" 
+                    <Course src="https://img-c.udemycdn.com/course/240x135/1754098_e0df_3.jpg" 
+                            name="The Data Science Course" 
+                            author="365 Careers" 
                             price="$5.77"
                     />
                     <Course src="https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg" 
