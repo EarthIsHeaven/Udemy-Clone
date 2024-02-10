@@ -70,6 +70,7 @@ export default function FrontImg() {
           </div>
         ))}
       </div>
+      
     </div>
   );
 }
