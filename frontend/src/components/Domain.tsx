@@ -2,6 +2,51 @@ import PythonAndWeb from "./PythonAndWeb"
 
 export default function Domain({id}: {id: number}) {
 
+    const python = [
+        {
+            src:"https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg", 
+            name:"The Complete JavaScript", 
+            author:"Jonas Schmed", 
+            price:"$5.66"
+        },
+        {
+            src:"https://img-c.udemycdn.com/course/480x270/3047216_4888_2.jpg",
+            name:"Python for beginners",
+            author:"Yassin",
+            price:"$4.99"
+        },
+        {
+            src:"https://img-c.udemycdn.com/course/480x270/793796_0e89_2.jpg",
+            name: "Microsoft Excel",
+            author: "Kyle Pew", 
+            price: "$6.12"
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
+            name: "Machine Learning",
+            author: "Kirill Eren", 
+            price: "$7.011",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/240x135/1754098_e0df_3.jpg", 
+            name: "The Data Science Course",
+            author: "365 Careers",
+            price: "$5.77"
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/240x135/1045092_8c2f_2.jpg", 
+            name: "The Art & Science",
+            author: "Brent Evistor",
+            price: "$30.57"
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg", 
+            name: "React",
+            author: "Academind",
+            price: "$29.33"
+        },
+    ]
+
     if(id == 1) {
         return (
             <div>
@@ -12,10 +57,7 @@ export default function Domain({id}: {id: number}) {
                                 You’ll learn how to build everything from games to sites to apps. 
                                 Choose from a range of courses that will appeal to" 
                                 buttonText="Python"
-                                src="https://img-c.udemycdn.com/course/480x270/2485240_d405_7.jpg"
-                                name="The Complete Python"
-                                author="Jose Portilla"
-                                price="$5.99"
+                                datas = {python}
                 />
             </div>
         )
@@ -28,10 +70,7 @@ export default function Domain({id}: {id: number}) {
                     new industries aimed at creating, managing, and debugging the websites and applications 
                     that we increasingly rely on. "
                     buttonText="Web development"
-                    src="https://img-c.udemycdn.com/course/240x135/764164_de03_5.jpg"
-                    name="The Complete Web Developer"
-                    author="Rob Percival"
-                    price="$6.122"
+                    datas={python}
                 />
             </div>
         )
@@ -48,10 +87,7 @@ export default function Domain({id}: {id: number}) {
                                 and practical skills you need to land a job in cloud development, sales, 
                                 engineering, networking, and more. The better you become at cloud computing, the more"
                                 buttonText="Amazon AWS"
-                                src="https://img-c.udemycdn.com/course/240x135/3142166_a637_3.jpg"
-                                name="Ultimate AWS Certificate"
-                                author="Stephane Maarek"
-                                price="$5.44"
+                                datas={python}
                 />
             </div>
         )

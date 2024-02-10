@@ -25,7 +25,7 @@ export default function ChangeCourses() {
                         <button className="hover:font-bold" onClick={()=> setId(3)}>Amazon AWS</button>
                     </div>
                 </div>
-                <div className="border-2 p-5">
+                <div className="border-2 p-10">
                   <Domain id={id}/>
                 </div>
             </div>
