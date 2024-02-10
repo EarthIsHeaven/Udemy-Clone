@@ -65,6 +65,7 @@ export default function Courses() {
                     Learners are viewing
                 </div>
                 <div>
+
                 <Slider {...settings}>
                     {data.map((d) => (
                         <Course src={d.src}
@@ -72,10 +73,8 @@ export default function Courses() {
                                 author={d.author}
                                 price={d.price}
                         />
-      
                     ))}
                 </Slider>
-                
 
                 </div>
             </div>

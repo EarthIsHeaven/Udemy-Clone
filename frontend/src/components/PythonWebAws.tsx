@@ -33,11 +33,13 @@ const PythonAndWeb: React.FC<PythonAndWebProps> = ({ heading, description, butto
             </button>
         </div>
         <div>
+
         <Slider {...settings}>
             {datas.map((d, index) => (
             <Course key={index} src={d.src} name={d.name} author={d.author} price={d.price} />
             ))}
-            </Slider>
+        </Slider>
+        
         </div>
     </div>
   );
