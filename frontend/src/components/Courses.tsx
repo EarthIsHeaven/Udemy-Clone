@@ -1,5 +1,5 @@
 import Course from "./Course"
-// import Slider from "react-slick";
+import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -34,24 +34,47 @@ export default function Courses() {
             name: "The Data Science Course",
             author: "365 Careers",
             price: "$5.77"
-        }
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/240x135/1045092_8c2f_2.jpg", 
+            name: "The Art & Science",
+            author: "Brent Evistor",
+            price: "$30.57"
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg", 
+            name: "React",
+            author: "Academind",
+            price: "$29.33"
+        },
     ]
+
+    var settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1
+    };
 
 
     return(
-        <div className="flex justify-center my-5">
+        <div className="flex justify-center mb-10">
             <div className="w-10/12">
                 <div className="font-bold text-2xl mb-3">
                     Learners are viewing
                 </div>
-                <div className="flex gap-4">
+                <div className=" gap-4">
+                <Slider {...settings}>
                     {data.map((d) => (
-                        <Course src= {d.src}
-                        name={d.name}
-                        author={d.author}
-                        price={d.price}
+                        <Course src={d.src}
+                                name={d.name}
+                                author={d.author}
+                                price={d.price}
                         />
+      
                     ))}
+                </Slider>
                 
 
                 </div>
