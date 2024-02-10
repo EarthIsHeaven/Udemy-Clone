@@ -2,7 +2,7 @@
 export default function Course({src, name, author, price}: {src: string, name: string, author: string, price: string}) {
 
     return (
-        <div>
+        <div className="mr-4">
             <div>
                 <img width="300rem" src={src} alt="image" />
             </div>

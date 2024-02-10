@@ -64,7 +64,7 @@ export default function Courses() {
                 <div className="font-bold text-2xl mb-3">
                     Learners are viewing
                 </div>
-                <div className=" gap-4">
+                <div>
                 <Slider {...settings}>
                     {data.map((d) => (
                         <Course src={d.src}
