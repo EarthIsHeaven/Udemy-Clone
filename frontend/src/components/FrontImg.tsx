@@ -46,7 +46,7 @@ export default function FrontImg() {
       <div className=' group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-1 bg-white hover:bg-gray-400 cursor-pointer'>
         <button onClick={prevSlide}>
             <div>
-                <img  className='rounded-full w-12' src={leftArrow} alt="" />
+                <img  className='rounded-full w-8' src={leftArrow} alt="" />
             </div>
         </button>
       </div>
@@ -55,7 +55,7 @@ export default function FrontImg() {
       <div className='group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-1 bg-white hover:bg-gray-400 cursor-pointer'>
         <button onClick={nextSlide}>
             <div>
-                <img  className='rounded-full w-12' src={rightArrow} alt="" />
+                <img  className='rounded-full w-8' src={rightArrow} alt="" />
             </div>
         </button>
       </div>
