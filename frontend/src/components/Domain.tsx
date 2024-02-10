@@ -4,46 +4,100 @@ export default function Domain({id}: {id: number}) {
 
     const python = [
         {
-            src:"https://img-c.udemycdn.com/course/480x270/851712_fc61_6.jpg", 
-            name:"The Complete JavaScript", 
-            author:"Jonas Schmed", 
-            price:"$5.66"
+            src:"https://img-c.udemycdn.com/course/480x270/1495788_1aaa_2.jpg", 
+            name:"Learn to Code in Python 3", 
+            author:"Ivan", 
+            price:"$20.66"
         },
         {
-            src:"https://img-c.udemycdn.com/course/480x270/3047216_4888_2.jpg",
-            name:"Python for beginners",
-            author:"Yassin",
-            price:"$4.99"
+            src:"https://img-c.udemycdn.com/course/480x270/692188_9da7_34.jpg",
+            name:"Python Mega Course",
+            author:"Ardit",
+            price:"$40.11"
         },
         {
-            src:"https://img-c.udemycdn.com/course/480x270/793796_0e89_2.jpg",
-            name: "Microsoft Excel",
-            author: "Kyle Pew", 
-            price: "$6.12"
+            src:"https://img-c.udemycdn.com/course/240x135/2861796_b954.jpg",
+            name: "Python And Django",
+            author: "Horizon Tech", 
+            price: "$20.12"
         },
         {
-            src: "https://img-c.udemycdn.com/course/240x135/950390_270f_3.jpg",
-            name: "Machine Learning",
+            src: "https://img-c.udemycdn.com/course/240x135/3378022_637b.jpg",
+            name: "Horizon Tech",
             author: "Kirill Eren", 
-            price: "$7.011",
+            price: "$19.99",
         },
         {
-            src: "https://img-c.udemycdn.com/course/240x135/1754098_e0df_3.jpg", 
-            name: "The Data Science Course",
-            author: "365 Careers",
-            price: "$5.77"
+            src: "https://img-c.udemycdn.com/course/240x135/3495852_8004.jpg", 
+            name: "Python For Beginners",
+            author: "Tech",
+            price: "$16.12"
+        },
+    ]
+
+    const web = [
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/1565838_e54e_18.jpg",
+            name: "Complete Web development",
+            author: "Dr. Angela Yu", 
+            price: "$29.99",
         },
         {
-            src: "https://img-c.udemycdn.com/course/240x135/1045092_8c2f_2.jpg", 
-            name: "The Art & Science",
-            author: "Brent Evistor",
-            price: "$30.57"
+            src: "https://img-c.udemycdn.com/course/480x270/625204_436a_3.jpg",
+            name: "The Web developer",
+            author: "Colt", 
+            price: "$30.33",
         },
         {
-            src: "https://img-c.udemycdn.com/course/480x270/1362070_b9a1_2.jpg", 
-            name: "React",
-            author: "Academind",
-            price: "$29.33"
+            src: "https://img-c.udemycdn.com/course/480x270/965528_737d_7.jpg",
+            name: "Web Developer Master Class",
+            author: "YouAccel", 
+            price: "$29.11",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/764164_de03_5.jpg",
+            name: "Web 3.0",
+            author: "Rob", 
+            price: "$29.11",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/2488654_e156_3.jpg",
+            name: "Full Stack PHP",
+            author: "Srini", 
+            price: "$59.00",
+        },
+    ]
+
+    const AWS = [
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/3142166_a637_3.jpg",
+            name: "Ultimate AWS",
+            author: "Stephane", 
+            price: "$28.10",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/1047846_83ef_29.jpg",
+            name: "Amazon Web Services",
+            author: "BackSpace", 
+            price: "$42.01",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/2645936_2526_7.jpg",
+            name: "AWS Certified Cloud",
+            author: "Neal Davis", 
+            price: "$32.08",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/1241254_9cc1.jpg",
+            name: "AWS Serverless",
+            author: "Academind", 
+            price: "$34.78",
+        },
+        {
+            src: "https://img-c.udemycdn.com/course/480x270/3259902_baf5_3.jpg",
+            name: "AWS Techinical",
+            author: "Rajesh", 
+            price: "$26.69",
         },
     ]
 
@@ -70,7 +124,7 @@ export default function Domain({id}: {id: number}) {
                     new industries aimed at creating, managing, and debugging the websites and applications 
                     that we increasingly rely on. "
                     buttonText="Web development"
-                    datas={python}
+                    datas={web}
                 />
             </div>
         )
@@ -87,7 +141,7 @@ export default function Domain({id}: {id: number}) {
                                 and practical skills you need to land a job in cloud development, sales, 
                                 engineering, networking, and more. The better you become at cloud computing, the more"
                                 buttonText="Amazon AWS"
-                                datas={python}
+                                datas={AWS}
                 />
             </div>
         )
